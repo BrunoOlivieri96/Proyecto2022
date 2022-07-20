@@ -1,6 +1,7 @@
 import { IconLogo, MenuItem, MenuItemLink, NavbarContainer, NavbarWrapper, Menu, IconLogoMobile } from "./NavBar.element"
 import { FaBookReader } from "react-icons/fa";
-import { FaBars } from "react-icons/fa" 
+import { FaBars } from "react-icons/fa";
+import  CartWidget  from "./CartWidget"
 
 const NavBar = () => {
   return (
@@ -27,9 +28,7 @@ const NavBar = () => {
                 <MenuItem>
                     <MenuItemLink> Catalogo </MenuItemLink>
                 </MenuItem>
-                <MenuItem>
-                    <MenuItemLink> Contacto </MenuItemLink>
-                </MenuItem>
+                <CartWidget/>
             </Menu>
         </NavbarWrapper>
     </NavbarContainer>

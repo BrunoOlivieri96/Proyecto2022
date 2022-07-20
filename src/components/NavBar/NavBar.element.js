@@ -82,4 +82,7 @@ display: none;
         color: #ebc08b;
         font-size: 2rem;
     }
+
+
 `;
+

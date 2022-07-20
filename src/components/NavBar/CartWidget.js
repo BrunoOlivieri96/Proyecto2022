@@ -1,8 +1,13 @@
+import { FaShoppingCart } from "react-icons/fa";
+
+
 const CartWidget = () => {
-return(
-    <div className = 'Cartwidget'
-)
-
-
+    return (
+        <div>
+            <FaShoppingCart />
+        </div>
+    )
 
 }
+
+export default CartWidget; 
